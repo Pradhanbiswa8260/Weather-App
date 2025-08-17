@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body{
+    background-color: #a9cad2;
+}
+.container{
+    background-color: #6f81da;
+    width: 600px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    margin-top: 40px;
+    border-radius: 10px; ;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+
+}
+form input[type="text"]{
+    padding: 10px;
+    font-size: 18px;
+    width: 70%;
+    border: none;
+    outline: none;border-radius: 5px;
+
+
+}
+form input[type="submit"]{
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:all 0.2s ease-in;
+}
+form input[type="submit"]:hover{
+    background-color: #744e48;
+}
+.icon img{
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+.temp{
+    font-size: 40px;
+    font-weight: 1000;
+    margin-top: 10px; 
+}
+.desc{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.details>div{
+    font-size: 18px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    min-height: 40px;
+    text-align: center;
+    align-items: center;
+    flex: 1;
+    
+}
